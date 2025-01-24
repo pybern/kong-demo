@@ -1,0 +1,7 @@
+{
+  "name": "Kong Gateway Demo",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "kong",
+  "forwardPorts": [8000, 8001],
+  "postCreateCommand": "docker-compose up -d"
+}
