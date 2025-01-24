@@ -1,0 +1,6 @@
+{
+  "name": "Kong DB-less Mode",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [8000, 8443, 8001],
+  "postCreateCommand": "echo 'Kong Gateway is running in db-less mode!'"
+}
